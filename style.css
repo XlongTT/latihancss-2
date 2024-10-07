@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body  {
+    font-family: Arial;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.kepala  {
+    padding: 30px;
+    text-align: center;
+    background-color:aqua;
+}
+
+.kepala h1  {
+    font-size: 50px;
+}
+
+.menuatas {
+    overflow: hidden;
+    background-color: #aaa;
+}
+
+.menuatas a {
+    float: left;
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuatas a:hover  {
+    background-color:#ddd;
+    color: black;
+}
+
+.kiri {
+    float: left;
+    width: 75%;
+}
+
+.kanan {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}    
+
+#anjay {
+background-image: url(https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#img1 {
+    background-image: url(https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#img2 {
+    background-image: url(https://images.pexels.com/photos/1164778/pexels-photo-1164778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#img3 {
+    background-image: url(https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg);
+}
+
+.gambar {
+    background-color: #aaa;
+    width: 90%;
+    padding: 20px;
+}
+
+.kartu {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.baris::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kaki {
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .kiri, .kanan {
+        width: 100%;
+        padding: 0;
+    }
+}
+    
+@media screen and (max-width: 400px) {
+    .menuatas a {
+        float: none;
+        width: 100%;
+    }
+}
